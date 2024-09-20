@@ -3,8 +3,22 @@
 #P1HW1
 #Create a python program 
 
+print('-----Calculating Exponents-----\n',)
+
 print('Enter an integer as the base value:', end=' ')
-base_value = input()
-print('Enter your last name:', end=' ')
-last_name = input()
-print('Hello,', first_name, last_name + '!','Welcome to CTI-110')
+base = int(input())
+print('Enter an integer as the exponent:', end=' ')
+exponent = int(input())
+answer = base**exponent
+print(base, 'raised to the power of', exponent, 'is', answer,'!!\n')
+
+print('-----Addition and Subtraction-----\n')
+
+print('Enter a starting integer:', end=' ')
+start = int(input())
+print('Enter an integer to add:', end=' ')
+add = int(input())
+print('Enter an integer to subtract:', end=' ')
+sub = int(input())
+equal = start + add - sub
+print(start,'+', add, '-', sub, 'is equal to', equal)
