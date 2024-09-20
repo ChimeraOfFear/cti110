@@ -1,0 +1,10 @@
+#Dylan Rossman
+#September 20, 2024
+#P1HW1
+#Create a python program 
+
+print('Enter an integer as the base value:', end=' ')
+base_value = input()
+print('Enter your last name:', end=' ')
+last_name = input()
+print('Hello,', first_name, last_name + '!','Welcome to CTI-110')
