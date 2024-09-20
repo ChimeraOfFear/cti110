@@ -1,6 +1,6 @@
 #Dylan Rossman
 #September 20, 2024
-#P1HW1
+#P1HW1 
 #Create a python program that takes inputs to do math
 
 print('-----Calculating Exponents-----\n',)
