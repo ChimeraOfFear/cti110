@@ -43,11 +43,11 @@ print('--------------------------------')
 
 #DECLARE grades as an empty list
 #DECLARE num as 1
-#PROMPT user for the number of scores to enter and store it in amount
+#PRINT How many scores do you want to enter
 #
 #FOR i FROM 0 TO amount - 1 DO
 #    WHILE True DO
-#        PROMPT user to enter a grade for Module num
+#        PRINT Enter grade for module
 #        STORE the input in grade
 #
 #        IF grade is less than 0 OR grade is greater than 100 THEN
